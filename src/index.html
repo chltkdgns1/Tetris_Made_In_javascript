@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height, 
+    minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+    <title>테트리스</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src= "js/main.js"></script>
+</head>
+<body>
+    <div style="padding : 0px; height : 375px;">
+        <canvas id = "canvas" style = "display: inline-block; border: 1px solid" width = "150px" height = "375px"></canvas>
+        <div style="display: inline-block; margin-bottom: 600px; margin : auto;">
+            <p id = "level">레벨 : 0</p>
+            <p id = "score">점수 : 0</p>
+        </div>
+    </div>
+   
+    <div>
+        <button onclick="Start()" style="margin-top : 30px; width: 100px; height: 50px;">
+            <p>테트리스 시작</p>
+        </button>
+    </div>
+</body>
+</html>
